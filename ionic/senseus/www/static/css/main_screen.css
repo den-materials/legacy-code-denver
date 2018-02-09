@@ -38,7 +38,7 @@
   justify-content: center; 
   text-align: center ;
   font-family: 'Oleo Script', cursive;
-  -webkit-text-stroke: 1px white;}
+  -webkit-text-stroke: 2px white;}
 #main-window #customizable-screen #first-time-container #extension {
   height: 0;
   visibility: hidden;
