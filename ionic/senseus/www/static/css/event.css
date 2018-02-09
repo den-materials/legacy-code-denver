@@ -311,7 +311,8 @@ border-color: red;
 }
 
 #event-name-container span, #event-name-container div , #event-name-container label {
-  font-size: 3vh;
+  font-size: 16px;
+  display: block;
 }
 
 #event-name-container #senseus-header span{
