@@ -6,6 +6,8 @@ add profile image to sqlite. (M)
 add profile image to user_notifications, when creating. (S)
 save contacts to sqlite?. (S)
 
+Hey Zeb.
+
 conversations:
     fix conversations.(H)
     fetch image id if it exists.(M)
