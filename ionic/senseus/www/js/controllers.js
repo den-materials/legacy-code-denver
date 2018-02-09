@@ -368,13 +368,13 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
         name: "CMU",
         preview: "Something nerdy is afoot...",
         lastMessageDate: moment().format('MMM D h:m a'),
-        image: "static/profile_images/cmu.svg"
+        image: "img/profile_images/cmu.svg"
     },
     {
         name: "UMich",
         preview: "Something footbal related...",
         lastMessageDate: moment().subtract(1, 'day').format('MMM D h:m a'),
-        image: "static/profile_images/umich.gif"
+        image: "img/profile_images/umich.gif"
 
     }];
 
@@ -390,17 +390,17 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
         $scope.chatName = Data.chatName;
     }
 
-    $scope.chatMessages = [{image:"static/profile_images/sravan_profile.jpg" , message: "The first message!"},
-                     {image: "static/profile_images/derrick_profile.jpg" , message:  "What up??"},
-                     {image: "static/profile_images/tim_profile.jpg" , message: "Chillin."}];
+    $scope.chatMessages = [{image:"img/profile_images/sravan_profile.jpg" , message: "The first message!"},
+                     {image: "img/profile_images/derrick_profile.jpg" , message:  "What up??"},
+                     {image: "img/profile_images/tim_profile.jpg" , message: "Chillin."}];
 
 
 })
 .controller('ContactsCTRL', function($scope, $location, $state, Data) {
 
-    $scope.contacts = [{image:"static/profile_images/sravan_profile.jpg" , name: "Sravan Vankina"},
-                     {image: "static/profile_images/derrick_profile.jpg" , name:  "Derrick Yu"},
-                     {image: "static/profile_images/tim_profile.jpg" , name: "Zeb Girouard"}];
+    $scope.contacts = [{image:"img/profile_images/sravan_profile.jpg" , name: "Sravan Vankina"},
+                     {image: "img/profile_images/derrick_profile.jpg" , name:  "Derrick Yu"},
+                     {image: "img/profile_images/tim_profile.jpg" , name: "Zeb Girouard"}];
 
 
 })
@@ -423,9 +423,9 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
 
 })
 .controller('EventCTRL', function ($scope, $location, Data, $ionicSlideBoxDelegate, $ionicHistory) {
-    $scope.events = [{image:"static/profile_images/sravan_profile.jpg" , event: "The first event that you were invited to."},
-                     {image: "static/profile_images/derrick_profile.jpg" , event:  "The second event that your friend created."},
-                     {image: "static/profile_images/tim_profile.jpg" , event: "Third randomish event in your area."}];
+    $scope.events = [{image:"img/profile_images/sravan_profile.jpg" , event: "The first event that you were invited to."},
+                     {image: "img/profile_images/derrick_profile.jpg" , event:  "The second event that your friend created."},
+                     {image: "img/profile_images/tim_profile.jpg" , event: "Third randomish event in your area."}];
 
     $scope.user = {email: 'spvankina@gmail.com'};
 
@@ -435,7 +435,7 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
 
     $scope.profileInit = function() {
         profileFunction();
-        document.getElementById('profile-image').src = 'static/profile_images/sravan_profile.jpg';
+        document.getElementById('profile-image').src = 'img/profile_images/sravan_profile.jpg';
     }
 
     $scope.eventContacts = function($scope, $location) {
