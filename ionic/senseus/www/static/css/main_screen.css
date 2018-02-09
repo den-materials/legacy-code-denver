@@ -333,6 +333,7 @@ width: 100%; }
   padding: 0;
   border:0;
   margin-top:8%;
+  top: 30px;
 }
 
 #senseus-calendar-header .inner-senseus-header {
@@ -345,6 +346,10 @@ width: 100%; }
  border-left: 1px solid black;
  border-bottom: 1px solid black;
  border-top: 1px solid black;
+}
+
+#week-calendar {
+    top: 125px;
 }
 
 #week-calendar tr {
