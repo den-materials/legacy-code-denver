@@ -5656,7 +5656,9 @@ legend {
 label, input, button, select, textarea {
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.42857; }
+  line-height: 1.42857;
+  width: 100%
+ }
 
 input, button, select, textarea {
   font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif; }
