@@ -80,8 +80,19 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
         localStorage.setItem("offset", parseInt(localStorage.getItem('offset')) + increment);
         $scope.initHeader();
       }
+     
     }
 
+    $scope.clearTimeBlockColor = function(){
+
+        
+
+        let activeTimeBlocks = document.getElementsByClassName('timeBlock');
+        console.log(activeTimeBlocks.length);
+        for(let i = 0; i < activeTimeBlocks.length; i++){
+            activeTimeBlocks[i].remove('timeBlock-active')
+        }
+    }
     $scope.initHeader = function() {
       var allDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       for (var i = 0; i < allDays.length; i++) {
@@ -170,7 +181,7 @@ angular.module('senseus.controllers', ["ui.bootstrap.modal"])
         else {
           InsertTime();
         }
-        console.log($scope.timeBlocks);
+        console.log('SUP',$scope.timeBlocks);
         function InsertTime() {
           $scope.timeBlocks.push({
             'timeString': hour+day,
