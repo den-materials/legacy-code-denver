@@ -37,7 +37,7 @@ width: 100%; }
   align-items: center;
   justify-content: center; 
   text-align: center }
-#main-window #customizable-screen #first-time-container #extension {
+#main-window #customizable-screen #first-time-container  {
   height: 0;
   visibility: hidden;
   opacity: 0;
@@ -49,21 +49,21 @@ width: 100%; }
   font-size: 150%;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
-#main-window #customizable-screen #first-time-container #extension div {
+#main-window #customizable-screen #first-time-container  div {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center; }
-#main-window #customizable-screen #first-time-container #extension div button {
+#main-window #customizable-screen #first-time-container  div button {
   margin-left: 2%;
   background-color: green;
   border-radius: 10%; }
-#main-window #customizable-screen #first-time-container #extension input {
+#main-window #customizable-screen #first-time-container  input {
   width: 50%;
   border-radius: 20px;
   background: lightgray;
   text-align: center; }
-#main-window #customizable-screen #first-time-container #extension.active {
+#main-window #customizable-screen #first-time-container{
   height: 15%;
   visibility: visible;
   opacity: 1;
@@ -208,52 +208,12 @@ width: 100%; }
             background-size: 100% 100%;
 }
 
-#extension{
-                display: flex;
-                flex-direction: column;
-                height: 15%;
-                width: 100%;
-}
 
 #first-time-welcome {
                 margin-top: 25%;
                 font-size: 250%;
                 align-items: center;
                 justify-content: center;
-}
-#extension div {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-#extension div button {
-                        margin-left: 2%;
-                        background-color: green;
-                        border-radius: 10%;
-}
-
-#extension div input{
-                    width: 50%;
-                    border-radius: 20px;
-                    background: lightgray;
-                    text-align: center;
-}
-
-#extension {
-                height: 0;
-                visibility: hidden;
-                opacity: 0;
-                transition:visibility 0.5s ease-in,opacity 0.85s ease-in, height 0.5s ease-in;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100%;
-                font-size: 150%;
-                color: white;
-                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .flex-row {
@@ -264,13 +224,6 @@ width: 100%; }
 .flex-column {
     display: flex;
     flex-direction: column;
-}
-
-#extension.active {
-    height: 15%;
-    visibility: visible;
-    opacity:1;
-    transition-delay:0s;
 }
 
 #first-time-find-event {
