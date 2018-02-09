@@ -332,7 +332,7 @@ width: 100%; }
   flex-direction:column;
   padding: 0;
   border:0;
-  margin-top:8%;
+  margin-top:30px;
 }
 
 #senseus-calendar-header .inner-senseus-header {
@@ -356,3 +356,11 @@ width: 100%; }
     text-align: center;
     vertical-align: middle;
 }
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    #senseus-calendar-header {
+      margin-top:3%;
+    }
+  }

@@ -267,3 +267,7 @@ color: black;
 .highlight-halfhour {
 background: green;
 }
+#day-header-table {
+    table-layout:fixed; 
+    margin-top: 7vh;
+}
