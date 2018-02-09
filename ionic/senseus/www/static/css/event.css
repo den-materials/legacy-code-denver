@@ -338,3 +338,8 @@ border-color: red;
 .bar-footer .column .row {
   height: 50%;
   width: 100%; }
+
+#google-autocomplete{
+  width: 100%;
+  border: solid;
+}
