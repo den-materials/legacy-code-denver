@@ -251,7 +251,7 @@ border-color: red;
 
 .event-col10 {
   display: flex;
-  min-width: 16%;
+  min-width: 30%;
   height: 100%;
   flex-direction: column;
   min-height: 100%;
@@ -311,7 +311,7 @@ border-color: red;
 }
 
 #event-name-container span, #event-name-container div , #event-name-container label {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 #event-name-container #senseus-header span{
