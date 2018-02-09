@@ -25,7 +25,7 @@
   background: url('../images/cheersBeers.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%; }
+  background-size: cover; }
 #main-window #customizable-screen #first-time-container div {
   display: flex;
   flex-direction: column;
