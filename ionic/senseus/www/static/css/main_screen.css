@@ -12,17 +12,17 @@
   border: 2px solid blue;
   position: relative; }
 #main-window #customizable-screen {
-display: -webkit-flex;
-display: flex;
-flex-direction: column;
-height: 93%;
-width: 100%; }
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: 93%;
+  width: 100%; }
 #main-window #customizable-screen #first-time-container {
   display: flex;
   height: 100%;
   width: 100%;
   flex-direction: column;
-  background: url('../images/handshake.jpg');
+  background: url('../images/cheersBeers.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%; }
