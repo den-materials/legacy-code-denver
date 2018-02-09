@@ -1,9 +1,9 @@
 var conversation_string = "\
     <div id='conversations-container'>\
     <div id='conversations-header'>\
-    <img src='static/images/search.png'></img>\
-    <img src='static/images/plus.png' onclick='createConversation()'></img>\
-    <img src='static/images/more.png'></img>\
+    <img src='img/search.png'></img>\
+    <img src='img/plus.png' onclick='createConversation()'></img>\
+    <img src='img/more.png'></img>\
     </div>\
     <div id='conversations-div' class='conversations-list'>\
     </div>\
@@ -73,7 +73,7 @@ function createConversationAndSend() {
 function addMessageToDiv(message, sentDate, conversationsDiv) {
     sentDate = moment.utc(sentDate).local()
     var messageDiv = document.createElement("div");
-    messageDiv.innerHTML = "<div id='image-area'><img src='static/images/blank_new.png'/></div><div id='text-area'><p>"+message+"</p><div id='date-area' class-'my-message'date'>"+sentDate.format("dddd, h:mma")+"</div></div>"
+    messageDiv.innerHTML = "<div id='image-area'><img src='img/blank_new.png'/></div><div id='text-area'><p>"+message+"</p><div id='date-area' class-'my-message'date'>"+sentDate.format("dddd, h:mma")+"</div></div>"
     messageDiv.setAttribute('class', 'conversation-element');
     conversationsDiv.appendChild(messageDiv);
 }

@@ -2,7 +2,7 @@ var profile_string = "\
 <div id='profile-container'>\
 <div id='profile-image-snippet-wrapper'>\
 <div id='profile-image-area'>\
-<img id='profile-image' src='static/images/blank-profile-hi.png'></div>\
+<img id='profile-image' src='img/blank-profile-hi.png'></div>\
 <div id='profile-info-area'>\
 <p id='profle-snippet'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>\
 </div></div>\

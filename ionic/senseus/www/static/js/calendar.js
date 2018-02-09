@@ -5,9 +5,9 @@ var calendar_string = "\
 <div id='calendar-control-container'>\
 </div>\
 <div id='calendar-header-right'>\
-<img src='static/images/plus.png'></img>\
-<img src='static/images/exclamation.png'/>\
-<img src='static/images/more.png'/>\
+<img src='img/plus.png'></img>\
+<img src='img/exclamation.png'/>\
+<img src='img/more.png'/>\
 </div>\
 </div>\
 <div id='date-title-container'><div class='swiper' id='left-swipe'>&#9664;</div><div id='date-title-div'></div><div  class='swiper' id='right-swipe'>&#9654;</div></div>\
