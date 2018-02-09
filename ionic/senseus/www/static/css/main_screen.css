@@ -33,10 +33,12 @@
   width: 100%; }
 #main-window #customizable-screen #first-time-container #first-time-welcome {
   margin-top: 5%;
-  font-size: 250%;
+  font-size: 4em;
   align-items: center;
   justify-content: center; 
-  text-align: center }
+  text-align: center ;
+  font-family: 'Oleo Script', cursive;
+  -webkit-text-stroke: 1px white;}
 #main-window #customizable-screen #first-time-container #extension {
   height: 0;
   visibility: hidden;
