@@ -6569,7 +6569,9 @@ progress {
     right: -6px;
     bottom: -6px;
     left: -6px;
-    content: ' '; }
+    content: ' ';
+    min-height: 5em;
+    min-width: 5em; }
   .button .icon {
     vertical-align: top;
     pointer-events: none; }
